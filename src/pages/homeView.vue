@@ -5,7 +5,8 @@
 </script>
 
 <template>
-  <HeaderComponent />
+  <HeaderComponent/>
+  <AboutMeComponent/>
 </template>
 
 <style scoped>

@@ -21,7 +21,9 @@ const headerItens = [
   <v-div
   style="width: 400px"
   class="d-flex justify-start">
-      <p class="text-h4 name">
+      <p 
+      class="text-h4 name"
+      >
         Ludwig.br
       </p>
     </v-div>
@@ -55,5 +57,6 @@ const headerItens = [
 
 .name {
   font-family: "Lobster";
+  color: #4bc538;
 }
 </style>
