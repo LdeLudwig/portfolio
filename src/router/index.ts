@@ -10,7 +10,14 @@ import { routes } from 'vue-router/auto-routes'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes,
+  routes: [
+    {
+      path: "/",
+      name: "home",
+      component: () => import('../pages/homeView.vue')
+    }
+
+  ]
 })
 
 // Workaround for https://github.com/vitejs/vite/issues/11804

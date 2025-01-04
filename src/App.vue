@@ -1,11 +1,21 @@
+<script setup lang="ts">
+import { RouterLink, RouterView, useRouter } from 'vue-router'
+import homeView from '@/pages/homeView.vue'
+
+</script>
+
+
 <template>
   <v-app>
-    <v-main>
-      <router-view />
-    </v-main>
+    <v-layout>
+      <homeView />
+      
+      <RouterLink to="/">
+      </RouterLink>
+    </v-layout>
   </v-app>
 </template>
 
-<script lang="ts" setup>
-  //
-</script>
+
+<style scoped>
+</style>
