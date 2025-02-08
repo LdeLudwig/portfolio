@@ -2,8 +2,8 @@
 
 const headerItens = [
   {value: 'Home', text: "Home"},
-  {value: 'Projects', text: "Work"},
-  {value: 'Contact', text: "Contact"}
+  {value: 'About', text: "About"},
+  {value: 'Projects', text: "Work"}
 ]
 
 </script>
