@@ -12,5 +12,6 @@ declare module 'vue' {
     PhotoComponent: typeof import('./src/components/PhotoComponent.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    WorkComponent: typeof import('./src/components/workComponent.vue')['default']
   }
 }

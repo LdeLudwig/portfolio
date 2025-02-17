@@ -1,12 +1,9 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
-    <v-container>
+    <v-container
+    max-width="1200">
         <v-div 
         class="d-flex align-center justify-center">
-            <p class="title">About</p>
+            <h1 class="title">About</h1>
             <v-divider 
             inset 
             :thickness="3"
@@ -16,29 +13,39 @@
         <p 
         class="paragraph text-h6">
             I’m a Full Stack Developer currently finishing my Control and Automation Engineering degree at the Federal University of Santa Catarina (UFSC). 
-            I’m passionate about using AI to create automation solutions that improve productivity and streamline workflows. 
+            I stated my career as a software developer in 2024, as an intern remotly to a startup, where I worked on projects using technologies like Django, DJango Rest Framework, Vue.js, Next.js and PostgreSQL. 
             When I’m not coding, I enjoy skateboarding, which helps me stay creative and focused. 
             I’m always looking for ways to build practical, impactful solutions to make work easier and more efficient.
         </p>
-        <v-div>
-            
+
+        <h1 class="mt-5 text-h4 paragraph" >I have professional experience with these technologies:</h1>
+        <v-div class="d-flex align-start justify-space-around my-5">
+            <div>
+                <h1>Back-End</h1>
+                <li>Django</li>
+                <li>Django Rest Framework</li>
+                <li>FastAPI</li>
+            </div>
+            <div>
+                <h1>Front-End</h1>
+                <li>TypeScript</li>
+                <li>Vue</li>
+                <li>Next</li>
+            </div>
+            <div>
+                <h1>Database</h1>
+                <li>PostgreSQL</li>
+            </div>
+            <div>
+                <h1>Tools</h1>
+                <li>Git</li>
+                <li>Linux</li>
+                <li>Docker</li>
+            </div>
         </v-div>
     </v-container>
 </template>
 
-<style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-.title{
-    font-family: "Roboto", serif;
-    font-size: 80px;
-    font-weight: 800;
-    color: #4bc538;
-}
-
-.paragraph{
-    font-family: "Roboto", serif;
-    font-weight: 600;
-    color: white
-}
+<style>
 
 </style>
