@@ -29,8 +29,8 @@
             <div>
                 <h1>Front-End</h1>
                 <li>TypeScript</li>
+                <li>JavaScript</li>
                 <li>Vue</li>
-                <li>Next</li>
             </div>
             <div>
                 <h1>Database</h1>
@@ -41,7 +41,22 @@
                 <li>Git</li>
                 <li>Linux</li>
                 <li>Docker</li>
+                <li>Vim</li>
             </div>
+        </v-div>
+        <v-div class="d-flex align-center justify-center my-5">
+            <img class="mx-2" align="center" alt="Python" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+            <img class="mx-2" align="center" alt="Django" height="40" width="40" src="https://devicons.railway.com/i/django.svg">
+            <img class="mx-2" align="center" alt="FastAPI" height="40" width="40" src="https://devicons.railway.com/i/fastapi.svg">
+            <img class="mx-2" align="center" alt="C" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
+            <img class="mx-2" align="center" alt="Typescript" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
+            <img class="mx-2" align="center" alt="JavaScript" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+            <img class="mx-2" align="center" alt="Vue" height="40" width="40" src="https://devicons.railway.com/i/vuejs.svg">
+            <img class="mx-2" align="center" alt="Postgres" height="40" width="40" src="https://devicons.railway.com/i/postgresql.svg">
+            <img class="mx-2" align="center" alt="Git" height="40" width="40" src="https://devicons.railway.com/i/git.svg">
+            <img class="mx-2" align="center" alt="Linux" height="40" width="40" src="https://devicons.railway.com/i/linux.svg">
+            <img class="mx-2" align="center" alt="Docker" height="40" width="40" src="https://devicons.railway.com/i/docker.svg">
+            <img class="mx-2" align="center" alt="Vim" height="40" width="40" src="https://devicons.railway.com/i/vim.svg">
         </v-div>
     </v-container>
 </template>

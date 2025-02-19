@@ -17,16 +17,6 @@ import { ref } from 'vue';
             color="#4bc538" 
             opacity="0.5"></v-divider>
         </v-div>
-        <div style="display: inline_block" align="center">
-            <img class="mx-2" align="center" alt="Django" height="50" width="50" src="https://devicons.railway.com/i/django.svg">
-            <img class="mx-2" align="center" alt="Vue" height="50" width="50" src="https://devicons.railway.com/i/vuejs.svg">
-            <img class="mx-2" align="center" alt="Postgres" height="50" width="50" src="https://devicons.railway.com/i/postgresql.svg">
-            <img class="mx-2" align="center" alt="Docker" height="50" width="50" src="https://devicons.railway.com/i/docker.svg">
-            <img class="mx-2" align="center" alt="Python" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-            <img class="mx-2" align="center" alt="JavaScript" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-            <img class="mx-2" align="center" alt="Typescript" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
-            <img class="mx-2" align="center" alt="C" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
-        </div>
         <v-div>
             <v-slide-group
             v-model="model"

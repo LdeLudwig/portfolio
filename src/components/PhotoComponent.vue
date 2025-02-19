@@ -19,7 +19,7 @@
             </h1>
             <!-- need add link to contact by email -->
             <a 
-            href="#"
+            href="mailto:borgesbfx@gmail.com"
             class="paragraph text-h5 ">
                 Contact Me
             </a>
