@@ -13,7 +13,7 @@
         <p 
         class="paragraph text-h6">
             I’m a Full Stack Developer currently finishing my Control and Automation Engineering degree at the Federal University of Santa Catarina (UFSC). 
-            I stated my career as a software developer in 2024, as an intern remotly to a startup, where I worked on projects using technologies like Django, DJango Rest Framework, Vue.js, Next.js and PostgreSQL. 
+            I stated my career as a software developer in 2024, as an intern remotly to a startup, where I worked on projects using technologies like Django, DJango Rest Framework, Vue.js and PostgreSQL. 
             When I’m not coding, I enjoy skateboarding, which helps me stay creative and focused. 
             I’m always looking for ways to build practical, impactful solutions to make work easier and more efficient.
         </p>
